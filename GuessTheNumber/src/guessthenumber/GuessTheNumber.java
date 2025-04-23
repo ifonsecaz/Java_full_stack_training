@@ -25,7 +25,7 @@ public class GuessTheNumber {
     private static int difficulty=1;
     
     private static void selectDifficulty() {
-        System.out.println("\nSelect Difficulty Level:"
+        System.out.println("Select Difficulty Level:"
                 + "\n1. Easy (1-100, 10 attempts, no time limit) "
                 + "\n2. Medium (1-200, 7 attempts, 60 second limit)"
                 + "\n3. Hard (1-250, 5 attempts, 30 second limit)"
