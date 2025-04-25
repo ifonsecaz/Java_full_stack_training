@@ -30,7 +30,7 @@ public class LibraryCatalog {
     private static String getValidString() {
         while (true) {
             try {
-                String input = lec.nextLine();
+                String input = lec.next();
                 return input;
             } catch (InputMismatchException e) {
                 System.out.print("Invalid input. Please enter a string: ");
